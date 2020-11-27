@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testar":"npx lint-staged"
+  },
+  "standard":{
+    "env":["jest"]
   },
   "repository": {
     "type": "git",
